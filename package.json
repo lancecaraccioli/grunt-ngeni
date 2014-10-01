@@ -24,6 +24,8 @@
     "lodash": "^2.4.1",
     "marked": "0.2.9",
     "node-html-encoder": "0.0.2",
+    "semver": "^4.0.3",
+    "shelljs": "^0.3.0",
     "stringmap": "^0.2.2"
   },
   "peerDependencies": {
@@ -31,8 +33,9 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-conventional-changelog": "~0.1.0",
     "grunt-contrib-watch": "~0.5.0",
+    "grunt-conventional-changelog": "~0.1.0",
+    "grunt-debug-task": "^0.1.5",
     "grunt-jasmine-node": "~0.1.0",
     "jasmine-node": "~1.12.0"
   }

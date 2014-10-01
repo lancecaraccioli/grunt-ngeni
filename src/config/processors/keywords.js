@@ -37,6 +37,8 @@ module.exports = function generateKeywordsProcessor(log, readFilesProcessor) {
       if ( this.ignoreWordsFile ) {
 
         var ignoreWordsPath = path.resolve(readFilesProcessor.basePath, this.ignoreWordsFile);
+        log.info('ngeni packaged ignored words path: %s', ignoreWordsPath);
+
         wordsToIgnore = fs.readFileSync(ignoreWordsPath, 'utf8').toString().split(/[,\s\n\r]+/gm);
 
         log.debug('Loaded ignore words from "' + ignoreWordsPath + '"');

@@ -12,7 +12,7 @@ module.exports = function generateIndexPagesProcessor() {
   return {
     deployments: [],
     $validate: {
-      deployments: { presence: false }
+      deployments: { presence: true }
     },
     $runAfter: ['adding-extra-docs'],
     $runBefore: ['extra-docs-added'],
