@@ -1,0 +1,39 @@
+{
+  "name": "grunt-ngeni",
+  "version": "0.1.0",
+  "description": "Grunt Task to Generate an AngularJS Style Docs Application",
+  "main": "tasks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcaraccioli/grunt-ngeni.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "AngularJS",
+    "angular",
+    "grunt",
+    "ngdocs",
+    "documention"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "canonical-path": "0.0.2",
+    "dgeni": "~0.4",
+    "dgeni-packages": "~0.10",
+    "lodash": "^2.4.1",
+    "marked": "0.2.9",
+    "node-html-encoder": "0.0.2",
+    "stringmap": "^0.2.2"
+  },
+  "peerDependencies": {
+    "grunt": "0.4.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-conventional-changelog": "~0.1.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-jasmine-node": "~0.1.0",
+    "jasmine-node": "~1.12.0"
+  }
+}
